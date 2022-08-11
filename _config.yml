@@ -2,13 +2,9 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
-date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+url: https://e7liu.github.io/cryptocurrency_sec
+title: Cryptocurrency Sec
+subtitle:  A collection of (mostly) computer security research papers on cryptocurrency.
 encoding: "utf-8"
 
 # When this page was last updated
@@ -46,7 +42,7 @@ components:
     wiki:
         view: cate
 
-        
+
 # 压缩页面内容
 compress_html:
   clippings: all
