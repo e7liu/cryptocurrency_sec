@@ -44,7 +44,15 @@ css: ['pages/index.css']
                 {% for cat in post.categories %}
                 <span class="meta-info">
                   <span class="octicon octicon-file-directory"></span>
-                  <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% if cat contains "Topic:" %}
+                  <a href="{{ site.url }}/bytopic/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% endif %}
+                  {% if cat contains "Venue:" %}
+                  <a href="{{ site.url }}/byvenue/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% endif %}
+                  {% if cat contains "20" %}
+                  <a href="{{ site.url }}/byyear/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% endif %}
                 </span>
                 {% endfor %}
                 </p>
@@ -66,7 +74,15 @@ css: ['pages/index.css']
                 {% for cat in post.categories %}
                 <span class="meta-info">
                   <span class="octicon octicon-file-directory"></span>
-                  <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% if cat contains "Topic:" %}
+                  <a href="{{ site.url }}/bytopic/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% endif %}
+                  {% if cat contains "Venue:" %}
+                  <a href="{{ site.url }}/byvenue/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% endif %}
+                  {% if cat contains "20" %}
+                  <a href="{{ site.url }}/byyear/#{{ cat }}" title="{{ cat }}">{{ cat | replace: "Topic: ", "" | replace: "Venue:", "" }}</a>
+                  {% endif %}
                 </span>
                 {% endfor %}
                 </p>

@@ -1,4 +1,4 @@
-<h3>Topics</h3>
+<h3 style="margin-bottom: 10px; margin-top: 20px">Topics</h3>
 
 {% assign sorted_categories = site.categories | sort %}
 
@@ -45,7 +45,7 @@
   {% else %}
     {% assign color = 8 | minus: base %}
   {% endif %}
-  <a href="{{ site.url }}/categories/#{{ category[0] }}" style="font-size: 1em; color: #000000;">{{ category | first }}</a><br/>
+  <a href="{{ site.url }}/bytopic/#{{ category[0] }}" style="font-size: 1em; color: #000000;">{{ category | first }}</a><br/>
 {% endfor %}
 
 <!-- ref http://liberize.github.io/tech/jekyll-tag-cloud.html -->
