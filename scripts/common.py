@@ -1,5 +1,17 @@
 import json
+import string
 from os import listdir
+
+
+MD_TEMPLATE = """---
+layout: post
+title: {}
+categories: {}
+abstract: {}
+year: {}
+venue: {}
+---
+"""
 
 class Paper():
 	def __init__(self, title):
@@ -12,6 +24,9 @@ class Paper():
 
 	def add_tags(self, tags):
 		self.tags = tags
+
+	def __str__(self):
+		return "{}".format(self.__dict__)
 
 def dump_paper_data_to_file(paper_obj):
 	obj = json.dumps(paper_obj.__dict__, indent=4)
@@ -37,6 +52,12 @@ def load_paper_data_from_file():
 		with open("{}/{}".format("../data/from_semanticscholar",f), 'r') as openfile:
 			# Reading from json file
 			json_object = json.load(openfile)
-			papers.append(json)
-			
+			p = Paper(json_object['title'])
+			p.tags = [i.strip() for i in json_object['tags']] if json_object['tags'] != None else None
+			p.authors = json_object['authors']
+			p.abstract = json_object['abstract']
+			p.venue = json_object['venue']
+			p.year = json_object['year']
+			papers.append(p)
+
 	return papers

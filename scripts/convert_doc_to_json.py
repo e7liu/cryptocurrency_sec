@@ -21,8 +21,6 @@ def to_ascii(s):
 	if s == None:
 		return s
 	return unidecode(s, errors="replace")
-	
-
 
 def query_paper_by_id(paperID):
 	global total_querys
@@ -121,7 +119,7 @@ def clean_paper_title(line):
 
 def main():
 	existing_papers = load_paper_data_from_file()
-	existing_papers = set(paper['title'] for paper in existing_papers)
+	existing_papers = set(paper.title for paper in existing_papers)
 
 	with open("../data/raw/doc.md") as f:
 		for line in f:
