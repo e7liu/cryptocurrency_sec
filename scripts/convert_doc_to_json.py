@@ -14,6 +14,13 @@ from unidecode import unidecode
 from common import dump_paper_data_to_file
 from common import load_paper_data_from_file
 from common import Paper
+import scholarly
+from scholarly import ProxyGenerator
+
+pg = ProxyGenerator()
+pg.FreeProxies()
+scholarly.scholarly.use_proxy(pg)
+
 
 total_querys = 0
 
@@ -69,15 +76,16 @@ def query_papers_matching_title(title, tags = None, venue = None):
 	# Handle
 	if response.status_code != 200:
 		print("Error: Wrong Response Code ({}), Raw: {}\n".format(response.status_code, response.text))
-		return 
+		return None
+
 	data = response.json()
 	if 'total' not in data:
 		print("Error: Response Format Exception, Raw: {}\n".format(response.text))
-		return
+		return None
 
 	if int(data['total']) == 0:
 		print("Error: No paper found, Raw: {}\n".format(response.text))
-		return
+		return None
 	
 	for paper_data in data['data']:
 		paperID = paper_data['paperId']
@@ -87,7 +95,7 @@ def query_papers_matching_title(title, tags = None, venue = None):
 				authors, abstract, venue, year = query_paper_by_id(paperID)
 			except Exception as e:
 				print(e)
-				return
+				return None
 
 			paper_obj.authors = authors
 			paper_obj.abstract = abstract
@@ -99,12 +107,9 @@ def query_papers_matching_title(title, tags = None, venue = None):
 			break
 	else:
 		print("Error: No matching paper found, Raw: {}\n".format(response.text))
-		return
+		return None
 
-	# Dump
-	dump_paper_data_to_file(paper_obj)
-	print("Success!\n")
-	time.sleep(2)	
+	return paper_obj
 
 def clean_paper_title(line):
 	# Paper title
@@ -116,6 +121,41 @@ def clean_paper_title(line):
 	title = line[:bracket_start].strip()
 	venue = line[bracket_start:].strip('()').strip().split("'")[0].strip()
 	return title, venue
+
+def query_gscholar(title,  tags = None, venue = None, paper_obj = None):
+	try:
+		print("Trying Google Scholar")
+		
+
+		pubs = scholarly.scholarly.search_pubs(title)
+		best_match = next(pubs)
+		if ['bib'] in best_match and ['title'] in best_match['bib']:
+			paperTitle = to_ascii(best_match['bib']['title'])
+			if difflib.SequenceMatcher(None,paperTitle,title).ratio() > 0.7:
+				bib = best_match['bib']
+				authors, abstract, _, year = to_ascii(bib['author']), to_ascii(bib['abstract']),  None, int(bib['pub_year'])
+				if paper_obj == None:
+					paper_obj = Paper(title)
+					paper_obj.add_tags(tags)
+					paper_obj.venue = venue
+					paper_obj.authors = authors
+					paper_obj.abstract = abstract
+					paper_obj.year = year
+				else:
+					paper_obj.abstract = abstract
+		else:
+			print("Trying Google Scholar No Valid Title, Raw: {}".format(best_match))
+			time.sleep(10)
+			return None
+
+	except Exception as e:
+		print("Error trying Google Scholar : {}".format(e))
+		time.sleep(10)
+		return None
+
+	time.sleep(10)
+	return paper_obj
+
 
 def main():
 	existing_papers = load_paper_data_from_file()
@@ -156,7 +196,18 @@ def main():
 				print('Data Exist!\n')
 				continue
 
-			query_papers_matching_title(title, list(tags.values()), venue)
+			query_result = query_papers_matching_title(title, list(tags.values()), venue)
+			if query_result == None or query_result.abstract == None:
+				query_result = query_gscholar(title, list(tags.values()), venue, query_result)
+
+			# Dump
+			if query_result != None:
+				dump_paper_data_to_file(query_result)
+				print("Success!\n")
+			else:
+				print('Fail trying both approaches')
+
+			time.sleep(2)
 
 			# Don't overload the server
 			if total_querys % 80 == 0:
