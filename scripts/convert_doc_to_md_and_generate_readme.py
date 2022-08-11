@@ -196,7 +196,7 @@ def main():
 			query_papers_matching_title(title, list(tags.values()), venue)
 
 			# Don't overload the server
-			if total_querys >= 80:
+			if total_querys % 80 == 0:
 				time.sleep(600)
 
 
