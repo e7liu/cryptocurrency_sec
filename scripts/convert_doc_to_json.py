@@ -11,54 +11,18 @@ import json
 import string
 from os import listdir
 from unidecode import unidecode
+from common import dump_paper_data_to_file
+from common import load_paper_data_from_file
+from common import Paper
 
 total_querys = 0
-
-class Paper():
-	def __init__(self, title):
-		self.title = title
-		self.tags = None
-		self.authors = None
-		self.abstract = None
-		self.venue = None
-		self.year = None
-
-	def add_tags(self, tags):
-		self.tags = tags
-
 
 def to_ascii(s):
 	if s == None:
 		return s
 	return unidecode(s, errors="replace")
-
-def convert_string_to_filename(s):
-	if s == None:
-		return s
-
-	# Not allowing space
-	valid_chars = "-_%s%s" % (string.ascii_letters, string.digits)
-	return ''.join(c for c in s if c in valid_chars)
 	
-def dump_paper_data_to_file(paper_obj):
-	obj = json.dumps(paper_obj.__dict__, indent=4)
-	# Writing to sample.json
-	with open("../data/from_semanticscholar/{}.json".format(convert_string_to_filename(paper_obj.title)), "w") as outfile:
-		outfile.write(obj)
 
-def load_paper_data_from_file():
-	papers = set()
-
-	for f in listdir("../data/from_semanticscholar"):
-		if ".json" not in f:
-			continue
-
-		with open("{}/{}".format("../data/from_semanticscholar",f), 'r') as openfile:
-			# Reading from json file
-			json_object = json.load(openfile)
-			papers.add(json_object['title'])
-
-	return papers
 
 def query_paper_by_id(paperID):
 	global total_querys
@@ -157,6 +121,7 @@ def clean_paper_title(line):
 
 def main():
 	existing_papers = load_paper_data_from_file()
+	existing_papers = set(paper['title'] for paper in existing_papers)
 
 	with open("../data/raw/doc.md") as f:
 		for line in f:
