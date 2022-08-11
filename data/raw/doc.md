@@ -517,9 +517,9 @@ Differential Privacy in Constant Function Market Makers (FC ‘22)
 
 Anonymous Tokens with Public Metadata and Applications to Private Contact Tracing (FC ‘22)
 
-Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback (FC 22’)
+Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback (FC ’22)
 
-Hide & Seek: Privacy-Preserving Rebalancing on Payment Channel Networks
+Hide & Seek: Privacy-Preserving Rebalancing on Payment Channel Networks (arXiv ‘21)
 
 ABSNFT: Securitization and Repurchase Scheme for Non-Fungible Tokens Based on Game Theoretical Analysis (FC ‘22)
 
@@ -565,9 +565,7 @@ On the Anonymity Guarantees of Anonymous Proof-of-Stake Protocols (IEEE S&P ‘2
 
 A2L: Anonymous Atomic Locks for Scalability in Payment Channel Hubs (IEEE S&P ‘21)
 
-CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance,
-
-and Accountability (IEEE S&P ‘21)
+CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (IEEE S&P ‘21)
 
 RandRunner: Distributed Randomness from Trapdoor VDFs with Strong Uniqueness (NDSS ‘21)
 
