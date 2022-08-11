@@ -1,0 +1,15 @@
+{
+    "title": "Pricing Security in Proof-of-Work Systems",
+    "tags": [
+        " Security and Measurement",
+        " Protocols"
+    ],
+    "authors": [
+        "G Bissias",
+        "R Bohme",
+        "D Thibodeau"
+    ],
+    "abstract": "A key component of security in decentralized blockchains is proof of opportunity cost among block producers. In the case of proof-of-work (PoW), currently used by the most prominent systems, the cost is due to spent computation. In this paper, we characterize the security investment of miners in terms of its cost in fiat money. This enables comparison of security allocations across PoW blockchains that generally use different PoW algorithms and reward miners in different cryptocurrency units. We prove that there exists a unique allocation",
+    "venue": "WEIS",
+    "year": 2020
+}

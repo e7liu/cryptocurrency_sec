@@ -1,0 +1,16 @@
+{
+    "title": "Bitcoin redux",
+    "tags": [
+        " Security and Measurement",
+        " Legal, Public Policy and Governance"
+    ],
+    "authors": [
+        "R Anderson",
+        "I Shumailov",
+        "M Ahmed",
+        "A Rietmann"
+    ],
+    "abstract": "We started by looking at how one might blacklist stolen bitcoin, and find that two established   Many bitcoin exchanges do not now give their customers actual bitcoin, but rather do off-",
+    "venue": "WEIS",
+    "year": 2019
+}

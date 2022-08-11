@@ -1,0 +1,16 @@
+{
+    "title": "What are the Actual Flaws in Important Smart Contracts (and How Can We Find Them)?",
+    "tags": [
+        " Security and Measurement",
+        " Smart Contracts"
+    ],
+    "authors": [
+        "Alex Groce",
+        "Josselin Feist",
+        "Gustavo Grieco",
+        "Michael Colburn"
+    ],
+    "abstract": "An important problem in smart contract security is understanding the likelihood and criticality of discovered, or potential, weaknesses in contracts. In this paper we provide a summary of Ethereum smart contract audits performed for 23 professional stakeholders, avoiding the common problem of reporting issues mostly prevalent in low-quality contracts. These audits were performed at a leading company in blockchain security, using both open-source and proprietary tools, as well as human code analysis performed by professional security",
+    "venue": "FC",
+    "year": 2019
+}

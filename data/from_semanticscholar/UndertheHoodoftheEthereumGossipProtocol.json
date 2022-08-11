@@ -1,0 +1,17 @@
+{
+    "title": "Under the Hood of the Ethereum Gossip Protocol",
+    "tags": [
+        " Security and Measurement",
+        " Protocols"
+    ],
+    "authors": [
+        "Lucianna Kiffer",
+        "Asad Salman",
+        "Dave Levin",
+        "A. Mislove",
+        "C. Nita-Rotaru"
+    ],
+    "abstract": "Blockchain protocols' primary security goal is consensus: one version of the global ledger that everyone in the network agrees on. Their proofs of security depend on assumptions on how well their peer-to-peer (P2P) overlay networks operate. Yet, surprisingly, little is understood about what factors influence the P2P network properties. In this work, we extensively study the Ethereum P2P network's connectivity and its block propagation mechanism. We gather data on the Ethereum network by running the official Ethereum",
+    "venue": "FC",
+    "year": 2021
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Maximizing Extractable Value from Automated Market Makers",
+    "tags": [
+        " Security and Measurement",
+        " Protocols"
+    ],
+    "authors": [
+        "Massimo Bartoletti",
+        "J. Chiang",
+        "Alberto Lluch-Lafuente"
+    ],
+    "abstract": ". Automated Market Makers (AMMs) are decentralized applications that allow users to exchange crypto-tokens without the need for a matching exchange order. AMMs are one of the most successful DeFi use cases: indeed, major AMM platforms process a daily volume of transactions worth USD billions. Despite their popularity, AMMs are well-known to suffer from transaction-ordering issues: adversaries can influence the ordering of user transactions, and possibly front-run them with their own, to extract value from AMMs, to the detriment of users. We devise an effective procedure to construct a strategy through which an adversary can maximize the value extracted from user transactions.",
+    "venue": "FC",
+    "year": 2021
+}

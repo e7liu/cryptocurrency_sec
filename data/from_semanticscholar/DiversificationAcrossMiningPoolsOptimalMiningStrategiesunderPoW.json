@@ -1,0 +1,16 @@
+{
+    "title": "Diversification Across Mining Pools: Optimal Mining Strategies under PoW",
+    "tags": [
+        " Security and Measurement",
+        " Mining"
+    ],
+    "authors": [
+        "Panagiotis Chatzigiannis",
+        "Foteini Baldimtsi",
+        "Igor Griva",
+        "Jiasun Li"
+    ],
+    "abstract": "\n Mining is a central operation of all proof-of-work (PoW)-based cryptocurrencies. The vast majority of miners today participate in \"mining pools\" instead of \"solo mining\" in order to lower risk and achieve a more steady income. However, this rise of participation in mining pools negatively affects the decentralization levels of most cryptocurrencies. In this work, we look into mining pools from the point of view of a miner: We present an analytical model and implement a computational tool that allows miners to optimally distribute their computational power over multiple pools and PoW cryptocurrencies (i.e. build a mining portfolio), taking into account their risk aversion levels. Our tool allows miners to maximize their risk-adjusted earnings by diversifying across multiple mining pools. Our underlying techniques are drawn from both the areas of financial economy and computer science since we use computer science-based approaches (i.e. optimization techniques) to experimentally prove how parties (and in particular miners) interact with cryptocurrencies in a way of increasing their Sharpe ratio. To showcase our model, we run an experiment in Bitcoin historical data and demonstrate that a miner diversifying over multiple pools, as instructed by our model/tool, receives a higher overall Sharpe ratio (i.e. average excess reward over its standard deviation/volatility).",
+    "venue": "WEIS",
+    "year": 2019
+}

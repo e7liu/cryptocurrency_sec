@@ -13,7 +13,7 @@
         "Andrew K. Miller",
         "Bobby Bhattacharjee"
     ],
-    "abstract": null,
+    "abstract": "Bitcoin relies on a peer-to-peer overlay network to broadcast transactions and blocks. From the viewpoint of network measurement, we would like to observe this topology so we can characterize its performance, fairness and robustness. However, this is difficult because Bitcoin is deliberately designed to hide its topology from onlookers. Knowledge of the topology is not in itself a vulnerability, although it could conceivably help an attacker performing targeted eclipse attacks or to deanonymize transaction senders. In this paper we",
     "venue": "FC",
     "year": 2018
 }

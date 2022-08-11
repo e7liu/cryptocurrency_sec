@@ -1,0 +1,16 @@
+{
+    "title": "Stressing Out: Bitcoin \"Stress Testing\"",
+    "tags": [
+        " Security and Measurement",
+        " Crimes"
+    ],
+    "authors": [
+        "Khaled Baqer",
+        "D. Huang",
+        "Damon McCoy",
+        "N. Weaver"
+    ],
+    "abstract": "at 201 BTC (or $49,000 USD). We conclude by pointing out changes that could be made to  Bitcoin  fees that would mitigate some of the spam techniques used to effectively DoS Bitcoin.",
+    "venue": "Bitcoin",
+    "year": 2016
+}

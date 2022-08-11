@@ -1,0 +1,15 @@
+{
+    "title": "MAD-HTLC: Because HTLC is Crazy-Cheap to Attack",
+    "tags": [
+        " Security and Measurement",
+        " Smart Contracts"
+    ],
+    "authors": [
+        "I Tsabary",
+        "M Yechieli",
+        "A Manuskin"
+    ],
+    "abstract": ", MAD-HTLC incentivizes the miners to confiscate all her funds. We prove MAD-HTLC's   We demonstrate MAD-HTLC's efficacy and analyze its overhead by instantiating it on Bitcoin's",
+    "venue": "IEEE S&P",
+    "year": 2021
+}

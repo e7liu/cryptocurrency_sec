@@ -1,0 +1,13 @@
+{
+    "title": "Centralized Governance in Decentralized Finance",
+    "tags": [
+        " Security and Measurement",
+        " Legal, Public Policy and Governance"
+    ],
+    "authors": [
+        "Xiaotong Sun"
+    ],
+    "abstract": "Based on Ethereum blockchain, Decentralized Autonomous Organization (DAO) provides a possible solution to decentralized governance, and many Decentralized Finance (DeFi) applications adopt the novel governance mechanism. However, by analyzing governance in Maker protocol, we find that centralized governance still exists. Measurements are established in three categories, namely voting participation, centralized voting power, and efficiency of decision-making. Furthermore, governance centralization has",
+    "venue": "Defi",
+    "year": 2021
+}

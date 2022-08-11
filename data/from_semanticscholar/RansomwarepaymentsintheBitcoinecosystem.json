@@ -1,0 +1,15 @@
+{
+    "title": "Ransomware payments in the Bitcoin ecosystem",
+    "tags": [
+        " Security and Measurement",
+        " Crimes"
+    ],
+    "authors": [
+        "Masarah Paquet-Clouston",
+        "Bernhard Haslhofer",
+        "Benoit Dupont"
+    ],
+    "abstract": "Ransomware can prevent a user from accessing a device and its files until a ransom is paid to the attacker, most frequently in Bitcoin. With over 500 known ransomware families, it has become one of the dominant cybercrime threats for law enforcement, security professionals and the public. However, a more comprehensive, evidence-based picture on the global direct financial impact of ransomware attacks is still missing. In this paper, we present a data-driven method for identifying and gathering information on Bitcoin transactions related to illicit activity based on footprints left on the public Bitcoin blockchain. We implement this method on-top-of the GraphSense open-source platform and apply it to empirically analyze transactions related to 35 ransomware families. We estimate the lower bound direct financial impact of each ransomware family and find that, from 2013 to mid-2017, the market for ransomware payments has a minimum worth of USD 12,768,536 (22,967.54 BTC). We also find that the market is highly skewed with only a few number of players responsible for the majority of the payments. Based on these research findings, policy-makers and law enforcement agencies can use the statistics provided to understand the size of the illicit market and make informed decisions on how best to address the threat.",
+    "venue": "WEIS",
+    "year": 2018
+}

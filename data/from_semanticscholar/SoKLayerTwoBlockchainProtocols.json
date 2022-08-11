@@ -1,0 +1,17 @@
+{
+    "title": "SoK: Layer-Two Blockchain Protocols",
+    "tags": [
+        " Security and Measurement",
+        " Layer-Two Protocols"
+    ],
+    "authors": [
+        "L. Gudgeon",
+        "Pedro A. Moreno-Sanchez",
+        "Stefanie Roos",
+        "Patrick McCorry",
+        "Arthur Gervais"
+    ],
+    "abstract": "We observe, overall, that layer-two protocols enable blockchains to scale without  modification on the base layer but that the performance improvement results in different security",
+    "venue": "FC",
+    "year": 2020
+}

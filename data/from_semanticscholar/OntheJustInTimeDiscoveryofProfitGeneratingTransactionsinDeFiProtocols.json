@@ -1,0 +1,16 @@
+{
+    "title": "On the Just-In-Time Discovery of Profit-Generating Transactions in DeFi Protocols",
+    "tags": [
+        " Security and Measurement",
+        " Defi"
+    ],
+    "authors": [
+        "L Zhou",
+        "K Qin",
+        "A Cully",
+        "B Livshits"
+    ],
+    "abstract": "Decentralized Finance (DeFi) is a blockchain-asset-enabled finance ecosystem with millions of daily USD transaction volume, billions of locked up USD, as well as a plethora of newly emerging protocols (for lending, staking, and exchanges). Because all transactions, user balances, and total value locked in DeFi are publicly readable, a natural question that arises is: how can we automatically craft profitable transactions across the intertwined DeFi platforms? In this paper, we investigate two methods that allow us to automatically create",
+    "venue": "IEEE S&P",
+    "year": 2021
+}

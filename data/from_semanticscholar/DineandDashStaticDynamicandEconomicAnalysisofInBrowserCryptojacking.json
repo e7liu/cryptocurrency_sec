@@ -1,0 +1,15 @@
+{
+    "title": "Dine and Dash: Static, Dynamic, and Economic Analysis of In-Browser Cryptojacking",
+    "tags": [
+        " Security and Measurement",
+        " Crimes"
+    ],
+    "authors": [
+        "Muhammad Saad",
+        "Aminollah Khormali",
+        "Aziz Mohaisen"
+    ],
+    "abstract": "Cryptojacking is the permissionless use of a target device to covertly mine cryptocurrencies. With cryptojacking attackers use malicious JavaScript codes to force web browsers into solving proof-of-work puzzles, thus making money by exploiting resources of the website visitors. To understand and counter such attacks, we systematically analyze the static, dynamic, and economic aspects of in-browser cryptojacking. For static analysis, we perform content-, currency-, and code-based categorization of cryptojacking samples to 1) measure their distribution across websites, 2) highlight their platform affinities, and 3) study their code complexities. We apply unsupervised learning to distinguish cryptojacking scripts from benign and other malicious JavaScript samples with 96.4% accuracy. For dynamic analysis, we analyze the effect of cryptojacking on critical system resources, such as CPU and battery usage. Additionally, we perform web browser fingerprinting to analyze the information exchange between the victim node and the dropzone cryptojacking server. We also build an analytical model to empirically evaluate the feasibility of cryptojacking as an alternative to online advertisement. Our results show a large negative profit and loss gap, indicating that the model is economically impractical. Finally, by leveraging insights from our analyses, we build countermeasures for in-browser cryptojacking that improve upon the existing remedies.",
+    "venue": "eCrime",
+    "year": 2019
+}

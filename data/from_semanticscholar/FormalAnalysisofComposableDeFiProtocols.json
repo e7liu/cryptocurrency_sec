@@ -1,0 +1,16 @@
+{
+    "title": "Formal Analysis of Composable DeFi Protocols",
+    "tags": [
+        " Security and Measurement",
+        " Defi"
+    ],
+    "authors": [
+        "Palina Tolmach",
+        "Yi Li",
+        "Shang-Wei Lin",
+        "Yang Liu"
+    ],
+    "abstract": "analyze the behaviors of composable DeFi protocols, we formulate general formal models of  components of DeFi protocols,  of two widely used DeFi protocols: a decentralized exchange",
+    "venue": "Defi",
+    "year": 2021
+}

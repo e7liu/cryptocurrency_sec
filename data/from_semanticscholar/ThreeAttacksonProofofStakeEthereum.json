@@ -1,0 +1,15 @@
+{
+    "title": "Three Attacks on Proof-of-Stake Ethereum",
+    "tags": [
+        " Security and Measurement",
+        " Protocols"
+    ],
+    "authors": [
+        "C Schwarz-Schilling",
+        "J Neu",
+        "B Monnot"
+    ],
+    "abstract": "Recently, two attacks were presented against Proof-of-Stake (PoS) Ethereum: one where short-range reorganizations of the underlying consensus chain are used to increase individual validators' profits and delay consensus decisions, and one where adversarial network delay is leveraged to stall consensus decisions indefinitely. We provide refined variants of these attacks, considerably relaxing the requirements on adversarial stake and network timing, and thus rendering the attacks more severe. Combining techniques from",
+    "venue": "FC",
+    "year": 2021
+}

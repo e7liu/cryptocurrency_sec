@@ -1,0 +1,14 @@
+{
+    "title": "COINHOARDER: Tracking a Ukrainian Bitcoin Phishing Ring DNS Style",
+    "tags": [
+        " Security and Measurement",
+        " Crimes"
+    ],
+    "authors": [
+        "Artsiom Holub",
+        "Jeremiah O'Connor"
+    ],
+    "abstract": "With the price of Bitcoin ascending to new heights in 2017, the rocketing valuation of cryptocurrencies continues its momentum into 2018. Evidence of the massive growth of these digital assets can be seen in the massive spikes in new clients at companies like Coinbase, adding 100,000 users in a 24-hour period, and Binance, which recently expanded its user base by 240,000 users in just one hour. The financial industry and Silicon Valley are not the only groups who have caught the cryptocurrency fever. Malicious actors have discovered that cryptocurrency newbies are unwitting targets that offer a consistent stream of revenue. Through our global network visibility, Cisco has observed many of these attacks originating from bulletproof hosting infrastructures located in the Eastern European region. This area is a hotbed for crypto theft and other computer crimes such as ransomware, botnets, DDoS services and credit card fraud. Some criminals have even extended beyond the digital world by kidnapping and demanding ransoms in Bitcoin, such as the case in the reported kidnapping and ransom of Pavel Lerner. Lerner was a lead analyst at Ukraine-based digital currency exchange, Exmo, who was released by his kidnappers after a $1 million Bitcoin payment was made. The event illustrates the desperate lengths some criminals will go in order to steal cryptocurrency. Joining the Enterprise Ethereum Alliance in 2017, Cisco is committed to protecting these new crypto technologies. Over the past year Cisco researchers have teamed up with the Ukraine Cyber Police to track a Bitcoin phishing operation dubbed the \"Coinhoarder\" campaign that has been tied to the theft of tens of millions of dollars worth of Bitcoin. Credential phishing continues to be one of the biggest security challenges for internet users, and cryptocurrency phishers have found it to be a very lucrative form of attack. In 2017, Chainalysis reported Ethereum phishing as being the number one source of theft in that ecosystem with estimates placing the total amount stolen at $115 million. Google also recently published a research paper stating credential phishing is one of their top security challenges. Cisco has been proactive in detecting phishing domains in predictive fashion to help protect our customers. Additionally, we have been working with security personnel at top cryptocurrency wallets and exchanges, such as Blockchain.info and Coinbase, to help protect the cryptocurrency community members from having their tokens stolen.",
+    "venue": "eCrime",
+    "year": 2018
+}

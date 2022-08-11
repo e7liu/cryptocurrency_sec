@@ -1,0 +1,15 @@
+{
+    "title": "Issues in Designing a Bitcoin-Like Community Currency",
+    "tags": [
+        " Security and Measurement",
+        " Protocols"
+    ],
+    "authors": [
+        "D Vandervort",
+        "D Gaucas",
+        "RS Jacques"
+    ],
+    "abstract": "The invention of the Bitcoin protocol has opened the door to new forms of financial interaction. One such form may be to adapt Bitcoin technology for use as a community currency. A community currency is a form of money issued by a non-government entity to serve the economic or social interests of a group of people, often in a small geographic area. We propose a model of a community cryptocurrency that includes a community fund from which community members may take out loans if the community votes to approve them. We",
+    "venue": "Bitcoin",
+    "year": 2015
+}

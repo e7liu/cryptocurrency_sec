@@ -1,0 +1,19 @@
+{
+    "title": "An Empirical Analysis of Privacy in the Lightning Network",
+    "tags": [
+        " Security and Measurement",
+        " Deanonymization / Privacy"
+    ],
+    "authors": [
+        "George Kappos",
+        "Haaroon Yousaf",
+        "Ania M. Piotrowska",
+        "Sanket Kanjalkar",
+        "S. Delgado-Segura",
+        "Andrew K. Miller",
+        "S. Meiklejohn"
+    ],
+    "abstract": "privacy it achieves in practice. This paper presents a thorough analysis of the privacy offered  by the Lightning Network,  publicly available information about the network in order to learn",
+    "venue": "FC",
+    "year": 2020
+}

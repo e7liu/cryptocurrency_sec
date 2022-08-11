@@ -1,0 +1,16 @@
+{
+    "title": "The Other Side of the Coin: User Experiences with Bitcoin Security and Privacy",
+    "tags": [
+        " Security and Measurement",
+        " Usable Security"
+    ],
+    "authors": [
+        "Katharina Krombholz",
+        "Aljosha Judmayer",
+        "Matthias Gusenbauer",
+        "E. Weippl"
+    ],
+    "abstract": "We present the first large-scale survey to investigate how users experience the Bitcoin ecosystem in terms of security, privacy and anonymity. We surveyed 990 Bitcoin users to determine Bitcoin management strategies and identified how users deploy security measures to protect their keys and bitcoins. We found that about 46% of our participants use web-hosted solutions to manage at least some of their bitcoins, and about half of them use exclusively such solutions. We also found that many users do not use all security capabilities",
+    "venue": "FC",
+    "year": 2016
+}

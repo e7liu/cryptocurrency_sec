@@ -1,0 +1,14 @@
+{
+    "title": "Measuring Ethereum-based ERC20 Token Networks",
+    "tags": [
+        " Security and Measurement",
+        " Decentralized Systems"
+    ],
+    "authors": [
+        "Friedhelm Victor",
+        "B. Luders"
+    ],
+    "abstract": "The blockchain and cryptocurrency space has experienced tremendous growth in the past few years. Covered by popular media, the phenomenon of startups launching Initial Coin Offerings (ICOs) to raise funds led to hundreds of virtual tokens being distributed and traded on blockchains and exchanges. The trade of tokens among participants of the network yields token networks, whose structure provides valuable insights into the current state and usage of blockchain-based decentralized trading systems. In this paper, we present a descriptive",
+    "venue": "FC",
+    "year": 2019
+}

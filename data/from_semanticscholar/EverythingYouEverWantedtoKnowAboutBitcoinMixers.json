@@ -1,0 +1,17 @@
+{
+    "title": "Everything You Ever Wanted to Know About Bitcoin Mixers",
+    "tags": [
+        " Security and Measurement",
+        " Deanonymization / Privacy"
+    ],
+    "authors": [
+        "Jaswant Pakki",
+        "Yan Shoshitaishvili",
+        "Ruoyu Wang",
+        "Tiffany Bao",
+        "Adam Doupe"
+    ],
+    "abstract": "The lack of fungibility in Bitcoin has forced its userbase to seek out tools that can heighten their anonymity. Third-party Bitcoin mixers use obfuscation techniques to protect participants from blockchain transaction analysis. In recent years, various centralized and decentralized Bitcoin mixing methods were proposed in academic literature (eg, CoinJoin, CoinShuffle). Although these methods strive to create a threat-free environment for users to preserve their anonymity, public Bitcoin mixers continue to be associated with theft and poor",
+    "venue": "FC",
+    "year": 2021
+}

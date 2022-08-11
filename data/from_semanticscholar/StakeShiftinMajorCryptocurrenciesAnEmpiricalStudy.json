@@ -10,7 +10,7 @@
         "Bernhard Haslhofer",
         "Jacob Illum"
     ],
-    "abstract": null,
+    "abstract": "In the proof-of-stake (PoS) paradigm for maintaining decentralized, permissionless cryptocurrencies, Sybil attacks are prevented by basing the distribution of roles in the protocol execution on the stake distribution recorded in the ledger itself. However, for various reasons this distribution cannot be completely up-to-date, introducing a gap between the present stake distribution, which determines the parties' current incentives, and the one used by the protocol. In this paper, we investigate this issue, and empirically quantify",
     "venue": "FC",
     "year": 2020
 }

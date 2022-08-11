@@ -1,0 +1,16 @@
+{
+    "title": "Why Bitcoin will Fail to Scale?",
+    "tags": [
+        " Security and Measurement",
+        " Economics"
+    ],
+    "authors": [
+        "Nikhil Malik",
+        "Manmohan Aseri",
+        "P. Singh",
+        "K. Srinivasan"
+    ],
+    "abstract": "Bitcoin falls dramatically short of the scale provided by banks for payments. Its ledger grow by the addition of blocks of ~ 2000 transaction every 10 minutes. Intuitively, one would expect that increasing the block capacity would solve this scaling problem. However, we show that increasing the block capacity would be futile. We analyze strategic interactions of miners, who are heterogeneous in their power over block addition, and users, who are heterogeneous in the value of their transactions, using a game-theoretic model. We show that a capacity increase can facilitate large miners to tacitly collude artificially reversing back the capacity via strategically adding partially filled blocks in order to extract economic rents. This strategic partial filling crowds out low value payments. Collusion is sustained if the smallest colluding miner has a share of block addition power above a lower bound. We provide empirical evidence of such strategic partial filling of blocks \nby large miners of Bitcoin. \n \nWe show that a protocol design intervention can breach the lower bound and eliminate collusion. However, this also makes the system less secure. On the one hand, collusion crowds out low-value payments; on the other hand, if collusion is suppressed, security threatens high-value payments. Thus its untenable to include range of payments with vastly different outside options, willingness to bear security risk and delay onto a single chain. Thus, we show economic limits to the scalability of Bitcoin. Under these economic limits, collusive rent extraction acts an effective mechanism to invest in platform security and build responsiveness to demand shocks. These traits are otherwise hard to attain in dis-intermediated setting owing to the high cost of consensus. We discuss recommendations to public Blockchain designers.",
+    "venue": "WEIS",
+    "year": 2019
+}

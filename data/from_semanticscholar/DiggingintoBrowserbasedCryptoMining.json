@@ -1,0 +1,15 @@
+{
+    "title": "Digging into Browser-based Crypto Mining",
+    "tags": [
+        " Security and Measurement",
+        " Crimes"
+    ],
+    "authors": [
+        "J Ruth",
+        "T Zimmermann",
+        "K Wolsing"
+    ],
+    "abstract": "We start our analysis of browser-based mining by investigating its prevalence in the web.  Thus, we visit landing pages of a large body of domains and identify the presence of mining",
+    "venue": "IMC",
+    "year": 2018
+}

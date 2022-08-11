@@ -1,0 +1,15 @@
+{
+    "title": "Selfish Mining Re-Examined",
+    "tags": [
+        " Security and Measurement",
+        " Mining"
+    ],
+    "authors": [
+        "Kevin Negy",
+        "P. Rizun",
+        "E. Sirer"
+    ],
+    "abstract": "employing selfish mining in proof-of-work cryptocurrencies. In this section, we first describe  the PoW mining process and then outline the selfish mining algorithm. 2.1 Mining in PoW",
+    "venue": "FC",
+    "year": 2020
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Characterizing Code Clones in the Ethereum Smart Contract Ecosystem",
+    "tags": [
+        " Security and Measurement",
+        " Smart Contracts"
+    ],
+    "authors": [
+        "Ningyu He",
+        "Lei Wu",
+        "Haoyu Wang",
+        "Yao Guo",
+        "Xuxian Jiang"
+    ],
+    "abstract": "In this paper, we present the first large-scale and systematic study to characterize the code reuse practice in the Ethereum smart contract ecosystem. We first performed a detailed similarity comparison study on a dataset of 10 million contracts we had harvested, and then we further conducted a qualitative analysis to characterize the diversity of the ecosystem, understand the correlation between code reuse and vulnerabilities, and detect the plagiarized DApps. Our analysis revealed that over 96% of the contracts had duplicates",
+    "venue": "FC",
+    "year": 2019
+}

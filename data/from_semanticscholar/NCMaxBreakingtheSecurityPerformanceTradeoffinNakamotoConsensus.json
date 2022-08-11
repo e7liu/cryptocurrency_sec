@@ -1,0 +1,17 @@
+{
+    "title": "NC-Max: Breaking the Security-Performance Tradeoff in Nakamoto Consensus",
+    "tags": [
+        " Security and Measurement",
+        " Protocols"
+    ],
+    "authors": [
+        "R Zhang",
+        "D Zhang",
+        "Q Wang",
+        "S Wu",
+        "J Xie"
+    ],
+    "abstract": "First implemented in Bitcoin, Nakamoto Consensus (NC) is the most influential consensus protocol in cryptocurrencies despite all the alternative protocols designed afterward. Nevertheless, NC is trapped by a security-performance tradeoff. While existing efforts mostly attempt to break this tradeoff via abandoning or adjusting NC's backbone protocol, we alternatively forward the relevance of the network layer. We identify and experimentally prove that the crux resides with the prolonged block propagation latency",
+    "venue": "NDSS",
+    "year": 2020
+}

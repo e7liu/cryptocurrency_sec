@@ -1,0 +1,19 @@
+{
+    "title": "Exchange Pattern Mining in the Bitcoin Transaction Directed Hypergraph",
+    "tags": [
+        " Security and Measurement",
+        " Exchanges"
+    ],
+    "authors": [
+        "Stephen Ranshous",
+        "C. Joslyn",
+        "Sean Kreyling",
+        "Kathleen E. Nowak",
+        "N. Samatova",
+        "Curtis L. West",
+        "Samuel Winters"
+    ],
+    "abstract": "Bitcoin exchanges operate between digital and fiat currency networks, thus providing an opportunity to connect real-world identities to pseudonymous addresses, an important task for anti-money laundering efforts. We seek to characterize, understand, and identify patterns centered around exchanges in the context of a directed hypergraph model for Bitcoin transactions. We introduce the idea of motifs in directed hypergraphs, considering a particular 2-motif as a potential laundering pattern. We identify distinct statistical properties",
+    "venue": "Bitcoin",
+    "year": 2017
+}

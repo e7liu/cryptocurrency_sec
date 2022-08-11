@@ -1,0 +1,15 @@
+{
+    "title": "Smart Contracts for Bribing Miners",
+    "tags": [
+        " Security and Measurement",
+        " Smart Contracts"
+    ],
+    "authors": [
+        "Patrick McCorry",
+        "A. Hicks",
+        "S. Meiklejohn"
+    ],
+    "abstract": "We present three smart contracts that allow a briber to fairly exchange bribes to miners who pursue a mining strategy benefiting the briber. The first contract, CensorshipCon, highlights that Ethereum's uncle block reward policy can directly subsidise the cost of bribing miners. The second contract, HistoryRevisionCon, rewards miners via an in-band payment for reversing transactions or enforcing a new state of another contract. The third contract, GoldfingerCon, rewards miners in one cryptocurrency for reducing the utility of another",
+    "venue": "Bitcoin",
+    "year": 2018
+}

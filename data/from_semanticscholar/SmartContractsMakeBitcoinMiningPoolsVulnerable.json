@@ -1,0 +1,15 @@
+{
+    "title": "Smart Contracts Make Bitcoin Mining Pools Vulnerable",
+    "tags": [
+        " Security and Measurement",
+        " Smart Contracts"
+    ],
+    "authors": [
+        "Yaron Velner",
+        "Jason Teutsch",
+        "Loi Luu"
+    ],
+    "abstract": "Despite their incentive structure flaws, mining pools account for more than 95% of Bitcoin's computation power. This paper introduces an attack against mining pools in which a malicious party pays pool members to withhold their solutions from their pool operator. We show that an adversary with a tiny amount of computing power and capital can execute this attack. Smart contracts enforce the malicious party's payments, and therefore miners need neither trust the attacker's intentions nor his ability to pay. Assuming pool members are",
+    "venue": "Bitcoin",
+    "year": 2017
+}
