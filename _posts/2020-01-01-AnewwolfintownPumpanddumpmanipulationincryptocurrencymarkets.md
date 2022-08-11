@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A new wolf in town? Pump-and-dump manipulation in cryptocurrency markets"
-categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2020', 'Venue: ']
+categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2020', 'Venue: Economics']
 year: 2020
 venue: 
 ---
