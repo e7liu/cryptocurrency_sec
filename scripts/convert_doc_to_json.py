@@ -120,7 +120,7 @@ def clean_paper_title(line):
 	bracket_start = line.rindex("(")
 	title = line[:bracket_start].strip()
 	venue = line[bracket_start:].strip('()').strip().split("'")[0].strip()
-	year = int(line[bracket_start:].strip('()').strip().split("'")[-1].strip())
+	year = int("20"+line[bracket_start:].strip('()').strip().split("'")[-1].strip())
 	return title, venue, year
 
 def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_obj = None):
