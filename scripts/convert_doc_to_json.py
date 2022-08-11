@@ -179,7 +179,7 @@ def main():
 					if int(lvl) + 1 in tags:
 						del tags[int(lvl) + 1] 
 
-					tags[int(lvl)] = line.strip("#")
+					tags[int(lvl)] = line.strip("#").strip()
 					# print(tags)
 				continue
 
