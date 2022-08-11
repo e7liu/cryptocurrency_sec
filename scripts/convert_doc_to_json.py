@@ -60,7 +60,7 @@ def query_paper_by_id(paperID):
 	return authors, abstract, venue, year
 
 
-def query_papers_matching_title(title, tags = None, venue = None):
+def query_papers_matching_title(title, tags = None, venue = None, backup_year = None):
 	global total_querys
 	print("Paper: {}".format(title))
 	paper_obj = Paper(title)
@@ -99,7 +99,7 @@ def query_papers_matching_title(title, tags = None, venue = None):
 
 			paper_obj.authors = authors
 			paper_obj.abstract = abstract
-			paper_obj.year = year
+			paper_obj.year = year if year != None else backup_year
 			# Venue from scholar is not accurate
 			if paper_obj.venue == None or paper_obj.venue == "SSRN":
 				paper_obj.venue = venue
@@ -120,9 +120,10 @@ def clean_paper_title(line):
 	bracket_start = line.rindex("(")
 	title = line[:bracket_start].strip()
 	venue = line[bracket_start:].strip('()').strip().split("'")[0].strip()
-	return title, venue
+	year = int(line[bracket_start:].strip('()').strip().split("'")[-1].strip())
+	return title, venue, year
 
-def query_gscholar(title,  tags = None, venue = None, paper_obj = None):
+def query_gscholar(title,  tags = None, venue = None, , backup_year = None, paper_obj = None):
 	try:
 		print("Trying Google Scholar")
 		pubs = scholarly.scholarly.search_pubs(title)
@@ -132,14 +133,14 @@ def query_gscholar(title,  tags = None, venue = None, paper_obj = None):
 			paperTitle = to_ascii(best_match['bib']['title'])
 			if difflib.SequenceMatcher(None,paperTitle,title).ratio() > 0.7:
 				bib = best_match['bib']
-				authors, abstract, _, year = to_ascii(bib['author']), to_ascii(bib['abstract']),  None, int(bib['pub_year'])
+				authors, abstract, _, year = [to_ascii(author) for author in bib['author']], to_ascii(bib['abstract']),  None, int(bib['pub_year'])
 				if paper_obj == None:
 					paper_obj = Paper(title)
 					paper_obj.add_tags(tags)
 					paper_obj.venue = venue
 					paper_obj.authors = authors
 					paper_obj.abstract = abstract
-					paper_obj.year = year
+					paper_obj.year = year if year != "NA" else backup_year
 				else:
 					paper_obj.abstract = abstract
 		else:
@@ -188,16 +189,16 @@ def main():
 				continue
 
 			# Paper
-			title, venue = clean_paper_title(line)
+			title, venue, backup_year = clean_paper_title(line)
 			#print(title, venue)
 			if title in existing_papers:
 				print("Paper: {}".format(title))
 				print('Data Exist!\n')
 				continue
 
-			query_result = query_papers_matching_title(title, list(tags.values()), venue)
+			query_result = query_papers_matching_title(title, list(tags.values()), backup_year, venue)
 			if query_result == None or query_result.abstract == None:
-				query_result = query_gscholar(title, list(tags.values()), venue, query_result)
+				query_result = query_gscholar(title, list(tags.values()), venue, backup_year, query_result)
 
 			# Dump
 			if query_result != None:
