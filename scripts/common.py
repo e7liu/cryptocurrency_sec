@@ -10,6 +10,8 @@ categories: {}
 year: {}
 venue: {}
 ---
+**Authors**: {}
+
 **Abstract**: {}
 """
 

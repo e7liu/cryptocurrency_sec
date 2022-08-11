@@ -14,9 +14,10 @@ def dump_paper_as_md(paper):
 		f.write(MD_TEMPLATE.format(
 			paper.title,
 			paper.tags,
-			paper.abstract if paper.abstract != None else "Abstract not available",
 			paper.year,
 			paper.venue if paper.venue != None else "Venue not available",
+			", ".join(paper.authors) if paper.authors != None else "Authors not available",
+			paper.abstract if paper.abstract != None else "Abstract not available",
 			))
 
 def main():
