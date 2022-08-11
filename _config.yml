@@ -55,12 +55,7 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+maintainer: Created and maintained by Alex Liu at UC San Diego
 
 # ---------------- #
 #    Navigation    #
