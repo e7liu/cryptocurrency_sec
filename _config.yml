@@ -10,11 +10,6 @@ encoding: "utf-8"
 # When this page was last updated
 last_updated: Aug 2022
 
-repository: https://e7liu.github.io/
-# 对 css 和 js 资源的 cdn 加速配置
-cdn:
-    jsdelivr:
-        enabled: false
 # 可选组件配置
 components:
     # 分享
