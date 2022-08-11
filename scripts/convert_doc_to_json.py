@@ -17,9 +17,9 @@ from common import Paper
 import scholarly
 from scholarly import ProxyGenerator
 
-pg = ProxyGenerator()
-pg.FreeProxies()
-scholarly.scholarly.use_proxy(pg)
+#pg = ProxyGenerator()
+#pg.FreeProxies()
+#scholarly.scholarly.use_proxy(pg)
 
 
 total_querys = 0
@@ -125,8 +125,6 @@ def clean_paper_title(line):
 def query_gscholar(title,  tags = None, venue = None, paper_obj = None):
 	try:
 		print("Trying Google Scholar")
-		
-
 		pubs = scholarly.scholarly.search_pubs(title)
 		best_match = next(pubs)
 		if ['bib'] in best_match and ['title'] in best_match['bib']:
@@ -145,15 +143,15 @@ def query_gscholar(title,  tags = None, venue = None, paper_obj = None):
 					paper_obj.abstract = abstract
 		else:
 			print("Trying Google Scholar No Valid Title, Raw: {}".format(best_match))
-			time.sleep(10)
+			time.sleep(60)
 			return None
 
 	except Exception as e:
 		print("Error trying Google Scholar : {}".format(e))
-		time.sleep(10)
+		time.sleep(60)
 		return None
 
-	time.sleep(10)
+	time.sleep(60)
 	return paper_obj
 
 
