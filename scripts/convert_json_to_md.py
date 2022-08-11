@@ -21,7 +21,7 @@ def dump_paper_as_md(paper):
 
 	with open(filename, "w") as f:
 		f.write(MD_TEMPLATE.format(
-			paper.title,
+			paper.title.replace('"',"'"),
 			paper.tags,
 			paper.year,
 			paper.venue if paper.venue != None else "Venue not available",

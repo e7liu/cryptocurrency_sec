@@ -9,4 +9,4 @@ venue: Bitcoin
 
 **Venue**: Bitcoin (2014)
 
-**Abstract**: Abstract not available
+**Abstract**: when discovering nodes of the P2P network we do not identify all Bitcoin users, but only   The paper is focused on analyzing the Bitcoin P2P network and thus we are dealing with Bitcoin

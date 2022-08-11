@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Shaduf: Non-Cycle Payment Channel Rebalancing"
+categories: ['Topic: New Systems and Protocols', '2022', 'Venue: NDSS']
+year: 2022
+venue: NDSS
+---
+**Authors**: Zhong-Liang Ge, Yi Zhang, Yu Long, Dawu Gu
+
+**Venue**: NDSS (2022)
+
+**Abstract**: --A leading approach to enhancing the performance and scalability of permissionless blockchains is to use the payment channel, which allows two users to perform off-chain payments with almost unlimited frequency. By linking payment channels together to form a payment channel network, users connected by a path of channels can perform off-chain payments rapidly. However, payment channels risk encountering fund depletion, which threatens the availability of both the payment channel and network. The most recent method needs a cycle-based channel rebalancing procedure, which requires a fair leader and users with rebalancing demands forming directed cycles in the network. Therefore, its large-scale applications are restricted. In this work, we introduce Shaduf, a novel non-cycle off- chain rebalancing protocol that offers a new solution for users to shift coins between channels directly without relying on the cycle setting. Shaduf can be applied to more general rebalancing scenarios. We provide the details of Shaduf and formally prove its security under the Universal Composability framework. Our prototype demonstrates its feasibility and the experimental evaluation shows that Shaduf enhances the Lighting Network performance in payment success ratio and volume. Experimental results also show that our protocol prominently reduces users' deposits in channels while maintaining the same amount of payments. Moreover, as a privacy enhancement of Shaduf, we propose Shaduf++. Shaduf++ not only retains all the advantages of Shaduf, but also preserves privacy for the rebalancing operations.

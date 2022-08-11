@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Using Throughput-Centric Byzantine Broadcast to Tolerate Malicious Majority in Blockchains"
+categories: ['Topic: New Systems and Protocols', '2021', 'Venue: IEEE S&P']
+year: 2021
+venue: IEEE S&P
+---
+**Authors**: Ruomu Hou, Hai-Bo Yu, Prateek Saxena
+
+**Venue**: IEEE S&P (2021)
+
+**Abstract**: Fault tolerance of a blockchain is often characterized by the fraction f of "adversarial power" that it can tolerate in the system. Despite the fast progress in blockchain designs in recent years, existing blockchain systems can still only tolerate f below 0.5. Can practically usable blockchains tolerate a malicious majority, i.e., f above 0.5? This work presents a positive answer to this question. We first note that the well-known impossibility of byzantine consensus for f above 0.5 does not carry over to blockchains. To tolerate f above 0.5, we use byzantine broadcast, instead of byzantine consensus, as the core of the blockchain. A major obstacle in doing so, however, is that the resulting blockchain may have extremely low throughput. To overcome this central technical challenge, we propose a novel byzantine broadcast protocol OVERLAYBB, that can tolerate f above 0.5 while achieving good throughput. Using OVERLAYBB as the core, we present the design, implementation, and evaluation of a novel Proof-ofStake blockchain called BCUBE. BCUBE can tolerate a malicious majority, while achieving practically usable transaction throughput and confirmation latency in our experiments with 10000 nodes and under f = 0.7. To our knowledge, BCUBE is the first blockchain that can achieve such properties.

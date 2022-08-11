@@ -9,4 +9,4 @@ venue: Bitcoin
 
 **Venue**: Bitcoin (2018)
 
-**Abstract**: Abstract not available
+**Abstract**: an attack a hostile takeover. For  hostile takeover and providing some basic analysis. We  also posit several hypotheses about the difference in difficulty of mounting a hostile takeover

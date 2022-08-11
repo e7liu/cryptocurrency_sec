@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Foundations of Dynamic BFT"
+categories: ['Topic: New Systems and Protocols', '2022', 'Venue: IEEE S&P']
+year: 2022
+venue: IEEE S&P
+---
+**Authors**: Sisi Duan, Haibin Zhang
+
+**Venue**: IEEE S&P (2022)
+
+**Abstract**: --This paper studies dynamic BFT, where replicas can join and leave the system dynamically, a primitive that is nowadays increasingly needed. We provide a formal treatment for dynamic BFT protocols, endowing them with a flexible syntax and various security definitions. We demonstrate the challenges of extending static BFT to dynamic BFT. Then we design and implement Dyno, a highly efficient dynamic BFT protocol under the partial synchrony model. We show that Dyno can seamlessly handle membership changes without incurring performance degradation.

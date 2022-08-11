@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Real Hidden Identity-Based Signatures"
+categories: ['Topic: Security and Measurement', 'Topic: Digital ID', '2017', 'Venue: FC']
+year: 2017
+venue: FC
+---
+**Authors**: Sherman S. M. Chow, Haibin Zhang, Tao Zhang
+
+**Venue**: FC (2017)
+
+**Abstract**: Group signature allows members to issue signatures on behalf of the group anonymously in normal circumstances. When the need arises, an opening authority (OA) can open a signature and reveal its true signer. Yet, many constructions require not only the secret key of the OA but also a member database (cf. a public-key repository) for this opening. This "secret members list" put the anonymity of members at risk as each of them is a potential signer. To resolve this "anonymity catch-22" issue, Kiayias and Zhou proposed hidden

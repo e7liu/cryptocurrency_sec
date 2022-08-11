@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2021)
 
-**Abstract**: Abstract not available
+**Abstract**: ) or after a timelock expires by another party (Alice). We present a bribery attack on HTLC's  where Bob's hash-protected transaction is censored by Alice's timelocked transaction. Alice

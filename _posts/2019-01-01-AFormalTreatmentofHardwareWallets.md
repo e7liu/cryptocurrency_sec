@@ -1,0 +1,12 @@
+---
+layout: post
+title: "A Formal Treatment of Hardware Wallets"
+categories: ['Topic: Security and Measurement', 'Topic: Wallets', '2019', 'Venue: FC']
+year: 2019
+venue: FC
+---
+**Authors**: Myrto Arapinis, Andriana Gkaniatsou, Dimitris Karakostas, A. Kiayias
+
+**Venue**: FC (2019)
+
+**Abstract**: Bitcoin, being the most successful cryptocurrency, has been repeatedly attacked with many users losing their funds. The industry's response to securing the user's assets is to offer tamper-resistant hardware wallets. Although such wallets are considered to be the most secure means for managing an account, no formal attempt has been previously done to identify, model and formally verify their properties. This paper provides the first formal model of the Bitcoin hardware wallet operations. We identify the properties and security parameters

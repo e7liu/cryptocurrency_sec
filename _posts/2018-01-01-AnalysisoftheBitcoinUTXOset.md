@@ -9,4 +9,4 @@ venue: Bitcoin
 
 **Venue**: Bitcoin (2018)
 
-**Abstract**: Abstract not available
+**Abstract**: In this section we analyze the UTXO set of the blockchain state at block 491, 868,  on the  Bitcoin Core UTXO set format. We also analyze different output subsets within the UTXO set that

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "SECURIFY: Practical Security Analysis of Smart Contracts"
+categories: ['Topic: Security and Measurement', 'Topic: Smart Contracts', '2018', 'Venue: CCS']
+year: 2018
+venue: CCS
+---
+**Authors**: Petar Tsankov, A. Dan, Dana Drachsler-Cohen, Arthur Gervais, Florian Buenzli, Martin T. Vechev
+
+**Venue**: CCS (2018)
+
+**Abstract**: Permissionless blockchains allow the execution of arbitrary programs (called smart contracts), enabling mutually untrusted entities to interact without relying on trusted third parties. Despite their potential, repeated security concerns have shaken the trust in handling billions of USD by smart contracts. To address this problem, we present Securify, a security analyzer for Ethereum smart contracts that is scalable, fully automated, and able to prove contract behaviors as safe/unsafe with respect to a given property. Securify's analysis consists of two steps. First, it symbolically analyzes the contract's dependency graph to extract precise semantic information from the code. Then, it checks compliance and violation patterns that capture sufficient conditions for proving if a property holds or not. To enable extensibility, all patterns are specified in a designated domain-specific language. Securify is publicly released, it has analyzed >18K contracts submitted by its users, and is regularly used to conduct security audits by experts. We present an extensive evaluation of Securify over real-world Ethereum smart contracts and demonstrate that it can effectively prove the correctness of smart contracts and discover critical violations.

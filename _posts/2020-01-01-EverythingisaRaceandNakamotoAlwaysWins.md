@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Everything is a Race and Nakamoto Always Wins"
+categories: ['Topic: Security and Measurement', 'Topic: Protocols', '2020', 'Venue: CCS']
+year: 2020
+venue: CCS
+---
+**Authors**: A. Dembo, Sreeram Kannan, Ertem Nusret Tas, David Tse, P. Viswanath, Xuechao Wang, O. Zeitouni
+
+**Venue**: CCS (2020)
+
+**Abstract**: Nakamoto invented the longest chain protocol, and claimed its security by analyzing the private double-spend attack, a race between the adversary and the honest nodes to grow a longer chain. But is it the worst attack? We answer the question in the affirmative for three classes of longest chain protocols, designed for different consensus models: 1) Nakamoto's original Proof-of-Work protocol; 2) Ouroboros and SnowWhite Proof-of-Stake protocols; 3) Chia Proof-of-Space protocol. As a consequence, exact characterization of the maximum tolerable adversary power is obtained for each protocol as a function of the average block time normalized by the network delay. The security analysis of these protocols is performed in a unified manner by a novel method of reducing all attacks to a race between the adversary and the honest nodes.

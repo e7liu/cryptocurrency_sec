@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2018)
 
-**Abstract**: Abstract not available
+**Abstract**: We present a measurement study on various decentralization metrics of two of the leading   Bitcoin and Ethereum. We investigate the extent of decentralization by measuring the network

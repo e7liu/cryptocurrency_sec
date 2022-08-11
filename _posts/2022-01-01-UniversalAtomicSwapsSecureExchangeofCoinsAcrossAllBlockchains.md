@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Universal Atomic Swaps: Secure Exchange of Coins Across All Blockchains"
+categories: ['Topic: New Systems and Protocols', '2022', 'Venue: IEEE S&P']
+year: 2022
+venue: IEEE S&P
+---
+**Authors**: Sri Aravinda Krishnan Thyagarajan, Giulio Malavolta, Pedro A. Moreno-Sanchez
+
+**Venue**: IEEE S&P (2022)
+
+**Abstract**: Trading goods lies at the backbone of the modern economy and the recent advent of cryptocurrencies has opened the door for trading decentralized (digital) assets: A large fraction of the value of cryptocurrencies comes from the inter-currency exchange and trading, which has been arguably the most successful application of decentralized money. The security issues observed with centralized, custodial cryptocurrency exchanges have motivated the design of atomic swaps, a protocol for coin exchanges between any two users. Yet, somewhat surprisingly, no atomic swap protocol exists that simultaneously satisfies the following simple but desired properties: (i) non-custodial, departing from a third party trusted holding the coins from users during the exchange; (ii) universal, that is, compatible with all (current and future) cryptocurrencies; (iii) multi-asset, supporting the exchange of multiple coins in a single atomic swap. From a theoretical standpoint, in this work we show a generic protocol to securely swap n coins from any (possible multiple) currencies for n coins of any other currencies, for any n and n. We do not require any custom scripting language supported by the corresponding blockchains, besides the bare minimum ability to verify signatures on transactions. For the special case when the blockchains use ECDSA or Schnorr signatures, we design a practically efficient protocol based on adaptor signatures and time-lock puzzles. As a byproduct of our approach, atomic swaps transactions no longer include custom scripts and are identical to standard one-to-one transactions. We also show that our protocol naturally generalizes to any cycle of users, i.e., atomic swaps with more than two participants. To demonstrate the practicality of our approach, we have evaluated a prototypical implementation of our protocol for Schnorr/ECDSA signatures and observed that an atomic swap requires below one second on commodity machines. Even on blockchains with expressive smart contract support (e.g., Ethereum), our approach reduces the on-chain cost both in terms of transaction size and gas cost.

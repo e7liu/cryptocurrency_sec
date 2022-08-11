@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Virtual currencies and fundamental rights"
+categories: ['Topic: Security and Measurement', 'Topic: Legal, Public Policy and Governance', '2019', 'Venue: WEIS']
+year: 2019
+venue: WEIS
+---
+**Authors**: C. Rueckert
+
+**Venue**: WEIS (2019)
+
+**Abstract**: Virtual currencies, like Bitcoin, raise new legal questions due to their innovative technological concepts. While academic research covers nearly all areas of the technological concepts of those currencies, legal research focuses only on a few topics. The papers which have been published so far discuss mainly economic law, tax law and financial regulations. At the same time governments are starting to explicitly regulate virtual currencies in terms of anti-money-laundering (AML) and to clarify or strengthen the legal basis for prosecuting crimes in the context of virtual currencies. Furthermore, criminal investigation in the context of virtual currencies is intensifying with the rising number of virtual currency related crimes. Moreover, governments should also start to consider crime prevention in the context of virtual currencies. AML regulation, crime prevention and prosecution have to take heed of the fundamental rights of the citizens affected. To date, legal research has not discussed the relationship between AML regulation (in the context of virtual currencies), crime prevention (in the context of virtual currencies), the prosecution of virtual currencies and fundamental rights. Many regulatory concepts will collide with the fundamental right to property of the owners of virtual currency units and the freedom to pursue a trade or profession of owners and operators of exchange platforms, mining pools etc. In virtual currencies organized as peer-to-peer systems, the freedom of association also has to be mentioned. With particular regard to prosecuting, law enforcement agencies restrict the freedom of telecommunication, data privacy (including the right to informational self-determination), freedom of expression, and the freedom of information. Whenever some of these fundamental rights are impinged upon, regulation concepts and investigation or prosecution approaches must be provided for by law and must fulfill the criterion of necessity. Further interdisciplinary research is needed to develop efficient and legit prevention and criminal investigation concepts.

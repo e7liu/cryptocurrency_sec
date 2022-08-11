@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Exploring the Monero Peer-to-Peer Network"
+categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2020', 'Venue: FC']
+year: 2020
+venue: FC
+---
+**Authors**: T Cao, J Yu, J Decouchant, X Luo
+
+**Venue**: FC (2020)
+
+**Abstract**: As of September 2019, Monero is the most capitalized privacy-preserving cryptocurrency, and is ranked tenth among all cryptocurrencies. Monero's on-chain data privacy guarantees, ie, how mixins are selected in each transaction, have been extensively studied. However, despite Monero's prominence, the network of peers running Monero clients has not been analyzed. Such analysis is of prime importance, since potential vulnerabilities in the peer-to-peer network may lead to attacks on the blockchain's safety (eg

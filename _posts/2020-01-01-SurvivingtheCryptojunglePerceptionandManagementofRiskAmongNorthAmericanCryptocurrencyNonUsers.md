@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Surviving the Cryptojungle: Perception and Management of Risk Among North American Cryptocurrency (Non)Users"
+categories: ['Topic: Security and Measurement', 'Topic: Usable Security', '2020', 'Venue: FC']
+year: 2020
+venue: FC
+---
+**Authors**: Artemij Voskobojnikov, Borke Obada-Obieh, Yue Huang, K. Beznosov
+
+**Venue**: FC (2020)
+
+**Abstract**: With the massive growth of cryptocurrency markets in recent years has come an influx of new users and investors, pushing the overall number of owners into the millions. At the same time, the number of distinct cryptocurrencies has exploded to over 4,900. In this burgeoning and chaotic "cryptojungle," new and unexplored incentives and risks drive the behavior of users and non-users of cryptocurrencies. While previous research has focused almost exclusively on Bitcoin, other cryptocurrencies and utility tokens have been ignored

@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2020)
 
-**Abstract**: Abstract not available
+**Abstract**: dBFT claims to guarantee safety when no more than Open  NEO's source code and present  the procedures of dBFT. Then, we present two attacks to break the safety of dBFT protocol

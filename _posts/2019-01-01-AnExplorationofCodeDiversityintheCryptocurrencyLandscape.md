@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2019)
 
-**Abstract**: Abstract not available
+**Abstract**: that while many cryptocurrencies are largely unchanged copies of Bitcoin, the use of   This paper considered diversity in the cryptocurrency landscape, according to the source code

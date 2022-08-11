@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2019)
 
-**Abstract**: Abstract not available
+**Abstract**: latency and miner behavior, their analysis provides insights into these factors empirical  analysis of the announcement and propagation of blocks that led to forks of the Bitcoin blockchain

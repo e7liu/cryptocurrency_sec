@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2018)
 
-**Abstract**: Abstract not available
+**Abstract**: systematic study of non-financial content on Bitcoin's blockchain.  explain methods to store  non-financial content on Bitcoin's  methods to insert arbitrary data into Bitcoin's blockchain in

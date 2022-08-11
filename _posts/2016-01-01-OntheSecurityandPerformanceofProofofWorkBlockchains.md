@@ -1,0 +1,12 @@
+---
+layout: post
+title: "On the Security and Performance of Proof of Work Blockchains"
+categories: ['Topic: Security and Measurement', 'Topic: Protocols', '2016', 'Venue: CCS']
+year: 2016
+venue: CCS
+---
+**Authors**: Arthur Gervais, Ghassan O. Karame, K. Wust, Vasileios Glykantzis, H. Ritzdorf, Srdjan Capkun
+
+**Venue**: CCS (2016)
+
+**Abstract**: Proof of Work (PoW) powered blockchains currently account for more than 90% of the total market capitalization of existing digital cryptocurrencies. Although the security provisions of Bitcoin have been thoroughly analysed, the security guarantees of variant (forked) PoW blockchains (which were instantiated with different parameters) have not received much attention in the literature. This opens the question whether existing security analysis of Bitcoin's PoW applies to other implementations which have been instantiated with different consensus and/or network parameters. In this paper, we introduce a novel quantitative framework to analyse the security and performance implications of various consensus and network parameters of PoW blockchains. Based on our framework, we devise optimal adversarial strategies for double-spending and selfish mining while taking into account real world constraints such as network propagation, different block sizes, block generation intervals, information propagation mechanism, and the impact of eclipse attacks. Our framework therefore allows us to capture existing PoW-based deployments as well as PoW blockchain variants that are instantiated with different parameters, and to objectively compare the tradeoffs between their performance and security provisions.

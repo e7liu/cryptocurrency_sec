@@ -9,4 +9,4 @@ venue: FC
 
 **Venue**: FC (2019)
 
-**Abstract**: Abstract not available
+**Abstract**: Payment channel networks like Bitcoin's Lightning network are an auspicious approach for realizing high transaction throughput and almost-instant confirmations in blockchain networks. However, the ability to successfully conduct payments in such networks relies on the willingness of participants to lock collateral in the network. In Lightning, the key financial incentive to lock collateral are low fees for routing payments of other participants. While users can choose these fees, real-world data indicates that they mainly stick to default fees

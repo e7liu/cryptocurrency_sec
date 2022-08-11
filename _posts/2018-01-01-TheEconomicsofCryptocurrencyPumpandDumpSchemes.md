@@ -1,0 +1,12 @@
+---
+layout: post
+title: "The Economics of Cryptocurrency Pump and Dump Schemes"
+categories: ['Topic: Security and Measurement', 'Topic: Crimes', '2018', 'Venue: WEIS']
+year: 2018
+venue: WEIS
+---
+**Authors**: J. Hamrick, Farhang Rouhi, A. Mukherjee, Amir Feder, Neil Gandal, T. Moore, Marie Vasek
+
+**Venue**: WEIS (2018)
+
+**Abstract**: The surge of interest in cryptocurrencies has been accompanied by a proliferation of fraud. This paper examines a pervasive tactic long known to financial markets: pump and dump schemes. While the fundamentals of the ruse have not changed in the last century, the recent explosion of nearly 2,000 cryptocurrencies in a largely unregulated environment has greatly expanded the scope for abuse. The paper first quantifies the scope of cryptocurrency pump and dump on Discord and Telegram, two widely popular group messaging platforms with 130 million users and 200 million users respectively. Both platforms can handle large groups with thousands of users, and they are the most popular outlets for pump and dump schemes involving cryptocurrencies. We identified 3,767 different pump signals advertised on Telegram and another 1,051 different pump signals advertised on Discord during a six-month period in 2018. The schemes promoted more than 300 cryptocurrencies. These comprehensive data provide the first measure of the scope of pump and dump schemes across cryptocurrencies and suggest that this phenomenon is widespread and often quite profitable. This should raise concerns among regulators. We then examine which factors that affect the "success" of the pump, as measured by the percentage increase in price near the pump signal. We find that the coin's rank (market capitalization/volume) is the most important factor in determining the profitability of the pump: pumping obscure coins (with low volume) is much more profitable than pumping the dominant coins in the ecosystem.

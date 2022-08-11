@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Measuring Asset Composability as a Proxy for Ecosystem Integration"
+categories: ['Topic: Security and Measurement', 'Topic: Economics', '2021', 'Venue: Defi']
+year: 2021
+venue: Defi
+---
+**Authors**: Victor von Wachter, Johannes Rude Jensen, Omri Ross
+
+**Venue**: Defi (2021)
+
+**Abstract**: Decentralized finance (DeFi) provides a new level of integration for financial applications. Whilst blockchain technology is inherently transparent, measuring both the economic and technical risks of an increasingly integrated ecosystem is challenging. In this extended abstract we approach the issue with an asset-centric view by proposing a measurement of the dependency of DeFi tokens. The method quantifies the distance between the original token entity and the composed version. Even for highly nested tokens, it allows to drill down to the original entity thus approximately gauging the level of integration within the broader DeFi ecosystem. The method is initially evaluated through the analysis of USDC and composed versions for all transactions of 2020.
