@@ -17,9 +17,9 @@ from common import Paper
 import scholarly
 from scholarly import ProxyGenerator
 
-#pg = ProxyGenerator()
-#pg.FreeProxies()
-#scholarly.scholarly.use_proxy(pg)
+pg = ProxyGenerator()
+pg.ScraperAPI("55d839024f8de5939bd5d85e875060d3")
+scholarly.scholarly.use_proxy(pg)
 
 
 total_querys = 0
@@ -127,6 +127,7 @@ def query_gscholar(title,  tags = None, venue = None, paper_obj = None):
 		print("Trying Google Scholar")
 		pubs = scholarly.scholarly.search_pubs(title)
 		best_match = next(pubs)
+		print(best_match)
 		if ['bib'] in best_match and ['title'] in best_match['bib']:
 			paperTitle = to_ascii(best_match['bib']['title'])
 			if difflib.SequenceMatcher(None,paperTitle,title).ratio() > 0.7:
