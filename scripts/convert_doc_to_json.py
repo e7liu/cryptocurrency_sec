@@ -18,7 +18,7 @@ import scholarly
 from scholarly import ProxyGenerator
 
 pg = ProxyGenerator()
-pg.ScraperAPI("55d839024f8de5939bd5d85e875060d3")
+pg.ScraperAPI("ae3a578dd2aa8db929728c05130c7b8a")
 scholarly.scholarly.use_proxy(pg)
 
 
