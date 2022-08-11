@@ -152,6 +152,11 @@ def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_
 		time.sleep(60)
 		return None
 
+	except StopIteration as e:
+		print("Error trying Google Scholar: {}".format(e))
+		time.sleep(60)
+		return None
+
 	time.sleep(60)
 	return paper_obj
 
