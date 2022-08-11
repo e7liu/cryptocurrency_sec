@@ -1,0 +1,17 @@
+{
+    "title": "BlockSci: Design and applications of a blockchain analysis platform",
+    "tags": [
+        " Security and Measurement",
+        " Decentralized Systems"
+    ],
+    "authors": [
+        "Harry A. Kalodner",
+        "Steven Goldfeder",
+        "Alishah Chator",
+        "Malte Moser",
+        "A. Narayanan"
+    ],
+    "abstract": "Analysis of blockchain data is useful for both scientific research and commercial applications. We present BlockSci, an open-source software platform for blockchain analysis. BlockSci is versatile in its support for different blockchains and analysis tasks. It incorporates an in-memory, analytical (rather than transactional) database, making it several hundred times faster than existing tools. We describe BlockSci's design and present four analyses that illustrate its capabilities. \nThis is a working paper that accompanies the first public release of BlockSci, available at this https URL We seek input from the community to further develop the software and explore other potential applications.",
+    "venue": "Usenix Security",
+    "year": 2017
+}

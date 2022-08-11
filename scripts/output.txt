@@ -1,0 +1,255 @@
+Paper: What Peer Announcements Tell Us About the Size of the Bitcoin P2P Network
+Data Exist!
+
+Paper: An empirical study of two Bitcoin artifacts through deep learning
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: Frontrunner Jones and the Raiders of the Dark Forest: An Empirical Study of Frontrunning on the Ethereum Blockchain
+Success!
+
+Paper: On the Routing-Aware Peering against Network-Eclipse Attacks in Bitcoin
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: Revisiting Nakamoto Consensus in Asynchronous Networks: A Comprehensive Analysis of Bitcoin Safety and Chain Quality
+Success!
+
+Paper: How Does Blockchain Security Dictate Blockchain Implementation?
+Success!
+
+Paper: DETER: Denial of Ethereum Txpool sERvices
+Success!
+
+Paper: A Security Framework for Distributed Ledgers
+Success!
+
+Paper: SyncAttack: Double-spending in Bitcoin Without Mining Power
+Success!
+
+Paper: Timelocked Bribing
+Success!
+
+Paper: Project Wallfacer: Demystifying Generalized Frontrunning Bots
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: ConFuzzius: A Data Dependency-Aware Hybrid Fuzzer for Smart Contracts
+Success!
+
+Paper: Selfish & opaque transaction ordering in the Bitcoin blockchain: the case for chain neutrality
+Success!
+
+Paper: A Stealthier Partitioning Attack against Bitcoin Peer-to-Peer Network
+Success!
+
+Paper: Remote Side-Channel Attacks on Anonymous Transactions
+Success!
+
+Paper: TXSPECTOR: Uncovering Attacks in Ethereum from Transactions
+Success!
+
+Paper: BlockSci: Design and applications of a blockchain analysis platform
+Success!
+
+Paper: An Ever-evolving Game: Evaluation of Real-world Attacks and Defenses in Ethereum Ecosystem
+Success!
+
+Paper: Broken Metre: Attacking Resource Metering in EVM
+Success!
+
+Paper: BDoS: Blockchain Denial-of-Service
+Success!
+
+Paper: Leveraging Bitcoin Testnet for Bidirectional Botnet Command and Control Systems
+Success!
+
+Paper: Security Analysis on dBFT protocol of NEO
+Success!
+
+Paper: Coded Merkle Tree: Solving Data Availability Attacks in Blockchains
+Success!
+
+Paper: Stake Shift in Major Cryptocurrencies: An Empirical Study
+Success!
+
+Paper: Exploring the Monero Peer-to-Peer Network
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: Revisiting Transactional Statistics of High-scalability Blockchain
+Success!
+
+Paper: A new wolf in town? Pump-and-dump manipulation in cryptocurrency markets
+Success!
+
+Paper: Bitcoin vs. Bitcoin Cash: Coexistence or Downfall of Bitcoin Cash?
+Success!
+
+Paper: Tracing Transactions Across Cryptocurrency Ledgers
+Success!
+
+Paper: The Anatomy of a Cryptocurrency Pump-and-Dump Scheme
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: SABRE: Protecting Bitcoin against Routing Attacks
+Success!
+
+Paper: Power Adjusting and Bribery Racing: Novel Mining Attacks in the Bitcoin System
+Success!
+
+Paper: TokenScope: Automatically Detecting Inconsistent Behaviors of Cryptocurrency Tokens in Ethereum
+Success!
+
+Paper: TxProbe: Discovering Bitcoin's Network Topology Using Orphan Transactions
+Success!
+
+Paper: Echoes of the Past: Recovering Blockchain Metrics From Merged Mining
+Success!
+
+Paper: Measuring Ethereum-based ERC20 Token Networks
+Success!
+
+Paper: Detecting Token Systems on Ethereum
+Success!
+
+Paper: I Can't Believe It's Not Stake! Resource Exhaustion Attacks on PoS
+Success!
+
+Paper: An Exploration of Code Diversity in the Cryptocurrency Landscape
+Success!
+
+Paper: An Empirical Analysis of Blockchain Forks in Bitcoin
+Success!
+
+Paper: Bitcoin Security under Temporary Dishonest Majority
+Success!
+
+Paper: An Empirical Analysis of Anonymity in Zcash
+Success!
+
+Paper: Measuring Profitability of Alternative Crypto-currencies
+Error: No matching paper found, Raw: {"total": 3, "offset": 0, "data": [{"paperId": "806e6470386015ea7cb69b02a4a8dcf72ce0d469", "title": "Decentralized security and data integrity of blockchain using deep learning techniques"}, {"paperId": "3e57009d14e701fad7e6591fa22794ff3bea61fd", "title": "Evaluating investment strategies among the International Financial Markets: three essays on investment decisions"}, {"paperId": "5ff9c518dc98cbfb0322dfea471b3e272d792453", "title": "Web Monetization Using Crypto-Currencies"}]}
+
+
+Paper: A Quantitative Analysis of the Impact of Arbitrary Blockchain Content on Bitcoin
+Success!
+
+Paper: Decentralization in Bitcoin and Ethereum Networks
+Success!
+
+Paper: Hostile Blockchain Takeovers
+Success!
+
+Paper: Analysis of the Bitcoin UTXO set
+Success!
+
+Paper: Exploiting Transaction Accumulation and Double Spends for Topology Inference in Bitcoin
+Success!
+
+Paper: Analyzing Ethereum's Contract Topology
+Success!
+
+Paper: Measuring Ethereum Network Peers
+Success!
+
+Paper: Hijacking Bitcoin: Routing Attacks on Cryptocurrencies
+Success!
+
+Paper: Be Selfish and Avoid Dilemmas: Fork After Withholding (FAW) Attacks on Bitcoin
+Success!
+
+Paper: An analysis of Bitcoin OP_RETURN metadata
+Success!
+
+Paper: Incentivizing Double-Spend Collusion in Bitcoin
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: Blockchain explorer: An analytical process and investigation environment for bitcoin
+Success!
+
+Paper: Why buy when you can rent? Bribery attacks on Bitcoin-style consensus
+Success!
+
+Paper: Trends, Tips, Tolls: A Longitudinal Study of Bitcoin Transaction Fees
+Success!
+
+Paper: ZombieCoin: Powering Next-Generation Botnets with Bitcoin
+Success!
+
+Paper: Towards Risk Scoring of Bitcoin Transactions
+Success!
+
+Paper: Challenges and Opportunities Associated with a Bitcoin-based Transaction Rating System
+Success!
+
+Paper: The Bitcoin P2P network
+Success!
+
+Paper: Empirical Analysis of Denial-of-Service Attacks in the Bitcoin Ecosystem
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: Rational Zero: Economic Security for Zerocoin with Everlasting Anonymity
+Success!
+
+Paper: Analysis and Probing of Parallel Channels in the Lightning Network
+Success!
+
+Paper: A Centrality Analysis of the Lightning Network
+Success!
+
+Paper: Congestion Attacks in Payment Channel Networks
+Success!
+
+Paper: SoK: Layer-Two Blockchain Protocols
+Success!
+
+Paper: How to profit from payments channels
+Success!
+
+Paper: LockDown: Balance Availability Attack against Lightning Network Channels
+Success!
+
+Paper: Quantifying Blockchain Extractable Value: How dark is the forest?
+Success!
+
+Paper: SAILFISH: Vetting Smart Contract State-Inconsistency Bugs in Seconds
+Success!
+
+Paper: SmartPulse: Automated Checking of Temporal Properties in Smart Contracts
+Success!
+
+Paper: SmarTest: Effectively Hunting Vulnerable Transaction Sequences in Smart Contracts through Language Model-Guided Symbolic Execution
+Success!
+
+Paper: Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited
+Success!
+
+Paper: SGUARD: Towards Fixing Vulnerable Smart Contracts Automatically
+Success!
+
+Paper: EVMPatch: Timely and Automated Patching of Ethereum Smart Contracts
+Success!
+
+Paper: EOSAFE: Security Analysis of EOSIO Smart Contracts
+Success!
+
+Paper: Compositional Security for Reentrant Applications
+Success!
+
+Paper: MAD-HTLC: Because HTLC is Crazy-Cheap to Attack
+Error: No paper found, Raw: {"total": 0, "offset": 0, "data": []}
+
+
+Paper: The Eye of Horus: Spotting and Analyzing Attacks on Ethereum Smart Contracts
+Success!
+
+Paper: VerX: Safety Verification of Smart Contracts
+Success!
+
+Paper: VeriSmart: A Highly Precise Safety Verifier for Ethereum Smart Contracts
+Success!
+

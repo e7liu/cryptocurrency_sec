@@ -1,0 +1,17 @@
+{
+    "title": "What Peer Announcements Tell Us About the Size of the Bitcoin P2P Network",
+    "tags": [
+        " Security and Measurement",
+        " Decentralized Systems"
+    ],
+    "authors": [
+        "Matthias Grundmann",
+        "Hedwig Amberg",
+        "Max Baumstark",
+        "Hannes",
+        "Hartenstein"
+    ],
+    "abstract": "Bitcoin is based on a P2P network of which only a few quantities are publicly known. While the number of peers that disseminate transactions and blocks is relevant for the robustness of the network, only the number of reachable peers is so far being measured. However, there exists an unknown number of unreachable peers in the network, that is, peers that do not accept incoming connections but typically also disseminate transactions and blocks. We propose the Passive Announcement Listening (PAL) method that gives an estimate of the number of unreachable peers by observing peer announcements in addr messages. We use the PAL method to analyze data from a long-term measurement of the Bitcoin P2P network from 2015 to 2021. The PAL estimate shows that since 2018 the number of unreachable peers is at least three times higher than the number of reachable peers. A first empirical validation indicates that the approach finds about 78 % of the unreachable peers that disseminate transactions and blocks and, thus, we estimate their current number to be in the range of 27,000 to 35,000. We also report on a spam wave of addr messages that shows that peer announcements 'leak' even more information than the size of the network.",
+    "venue": "FC",
+    "year": 2021
+}

@@ -1,0 +1,19 @@
+{
+    "title": "TxProbe: Discovering Bitcoin's Network Topology Using Orphan Transactions",
+    "tags": [
+        " Security and Measurement",
+        " Decentralized Systems"
+    ],
+    "authors": [
+        "S. Delgado-Segura",
+        "Surya Bakshi",
+        "C. Perez-Sola",
+        "J. Litton",
+        "Andrew Pachulski",
+        "Andrew K. Miller",
+        "Bobby Bhattacharjee"
+    ],
+    "abstract": null,
+    "venue": "FC",
+    "year": 2018
+}
