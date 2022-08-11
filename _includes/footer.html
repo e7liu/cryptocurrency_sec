@@ -17,16 +17,6 @@
             <a href="{{ site.github.repository_url }}" target="_blank" aria-label="view source code">
                 <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
             </a>
-            <ul class="site-footer-links mobile-hidden">
-                {% for nav in site.navs %}
-                <li>
-                    <a href="{{ site.url }}{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-
-          {% include visit-stat.html %}
-
         </div>
     </footer>
     <div class="tools-wrapper">
