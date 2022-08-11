@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Blockchain explorer: An analytical process and investigation environment for bitcoin"
+categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2017', 'Venue: eCrime']
+year: 2017
+venue: eCrime
+---
+**Authors**: Hiroki Kuzuno, Christian Karam
+
+**Venue**: eCrime (2017)
+
+**Abstract**: Bitcoin is the most famous cryptocurrency currently operating with a total marketcap of almost 7 billion USD. This innovation stands strong on the feature of pseudo anonymity and strives on its innovative de-centralized architecture based on the Blockchain. The Blockchain is a distributed ledger that keeps a public record of all the transactions processed on the bitcoin protocol network in full transparency without revealing the identity of the sender and the receiver. Over the course of 2016, cryptocurrencies have shown some instances of abuse by criminals in their activities due to its interesting nature. Darknet marketplaces are increasing the volume of their businesses in illicit and illegal trades but also cryptocurrencies have been used in cases of extortion, ransom and as part of sophisticated malware modus operandi. We tackle these challenges by developing an analytical capability that allows us to map relationships on the blockchain and filter crime instances in order to investigate the abuse in law enforcement local environment. We propose a practical bitcoin analytical process and an analyzing system that stands alone and manages all data on the blockchain in real-time with tracing and visualizing techniques rendering transactions decipherable and useful for law enforcement investigation and training. Our system adopts combination of analyzing methods that provides statistics of address, graphical transaction relation, discovery of paths and clustering of already known addresses. We evaluated our system in the three criminal cases includes marketplace, ransomware and DDoS extortion. These are practical training in law enforcement, then we determined whether our system could help investigation process and training.

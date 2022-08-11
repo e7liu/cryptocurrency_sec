@@ -12,10 +12,12 @@ def dump_paper_as_md(paper):
 
 	if paper.tags == None:
 		paper.tags = []
+	else:
+		paper.tags = ["Topic: "+tag for tag in paper.tags]
 	if paper.year != None:
 		paper.tags.append(str(paper.year))
 	if paper.venue != None:
-		paper.tags.append(paper.venue)
+		paper.tags.append("Venue: "+paper.venue)
 
 	with open(filename, "w") as f:
 		f.write(MD_TEMPLATE.format(
@@ -24,6 +26,8 @@ def dump_paper_as_md(paper):
 			paper.year,
 			paper.venue if paper.venue != None else "Venue not available",
 			", ".join(paper.authors) if paper.authors != None else "Authors not available",
+			paper.venue if paper.venue != None else "Venue not available",
+			paper.year if paper.year != None else "Year not available",
 			paper.abstract if paper.abstract != None else "Abstract not available",
 			))
 

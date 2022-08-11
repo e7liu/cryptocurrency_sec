@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Tracing Transactions Across Cryptocurrency Ledgers"
+categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2018', 'Venue: Usenix Security']
+year: 2018
+venue: Usenix Security
+---
+**Authors**: Haaroon Yousaf, George Kappos, S. Meiklejohn
+
+**Venue**: Usenix Security (2018)
+
+**Abstract**: One of the defining features of a cryptocurrency is that its ledger, containing all transactions that have evertaken place, is globally visible. As one consequenceof this degree of transparency, a long line of recent re-search has demonstrated that even in cryptocurrenciesthat are specifically designed to improve anonymity it is often possible to track money as it changes hands,and in some cases to de-anonymize users entirely. With the recent proliferation of alternative cryptocurrencies, however, it becomes relevant to ask not only whether ornot money can be traced as it moves within the ledgerof a single cryptocurrency, but if it can in fact be tracedas it moves across ledgers. This is especially pertinent given the rise in popularity of automated trading platforms such as ShapeShift, which make it effortless to carry out such cross-currency trades. In this paper, weuse data scraped from ShapeShift over a thirteen-monthperiod and the data from eight different blockchains to explore this question. Beyond developing new heuristics and creating new types of links across cryptocurrency ledgers, we also identify various patterns of cross-currency trades and of the general usage of these platforms, with the ultimate goal of understanding whetherthey serve a criminal or a profit-driven agenda.

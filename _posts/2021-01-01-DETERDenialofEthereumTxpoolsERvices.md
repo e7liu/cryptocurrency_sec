@@ -1,0 +1,12 @@
+---
+layout: post
+title: "DETER: Denial of Ethereum Txpool sERvices"
+categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2021', 'Venue: CCS']
+year: 2021
+venue: CCS
+---
+**Authors**: Kai Li, Yibo Wang, Y. Tang
+
+**Venue**: CCS (2021)
+
+**Abstract**: On an Ethereum node, txpool (a.k.a. mempool) is a buffer storing unconfirmed transactions and controls what downstream services can see, such as mining and transaction propagation. This work presents the first security study on Ethereum txpool designs. We discover flawed transaction handling in all known Ethereum clients (e.g., Geth), and by exploiting it, design a series of low-cost denial-of-service attacks named DETER. A DETER attacker can disable a remote Ethereum node's txpool and deny the critical downstream services in mining, transaction propagation, Gas station, etc. By design, DETER attacks incur zero or low Ether cost. The attack can be amplified to cause global disruption to an Ethereum network by targeting centralized network services there (e.g., mining pools and transaction relay services). By evaluating local nodes, we verify the effectiveness and low cost of DETER attacks on all known Ethereum clients and in major testnets. We design non-trivial measurement methods against blackbox mainnet nodes and conduct light probes to confirm that popular mainnet services are exploitable under DETER attacks. We propose mitigation schemes that reduce a DETER attack's success rate down to zero while preserving the miners' revenue.

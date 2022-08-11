@@ -1,0 +1,12 @@
+---
+layout: post
+title: "TXSPECTOR: Uncovering Attacks in Ethereum from Transactions"
+categories: ['Topic: Security and Measurement', 'Topic: Decentralized Systems', '2020', 'Venue: Usenix Security']
+year: 2020
+venue: Usenix Security
+---
+**Authors**: Mengya Zhang, Xiaokuan Zhang, Yinqian Zhang, Zhiqiang Lin
+
+**Venue**: Usenix Security (2020)
+
+**Abstract**: The invention of Ethereum smart contract has enabled the blockchain users to customize computing logic in transactions. However, similar to traditional computer programs, smart contracts have vulnerabilities, which can be exploited to cause financial loss of contract owners. While there are many software tools for detecting vulnerabilities in the smart contract bytecode, few have focused on transactions. In this paper, we propose TXSPECTOR, a generic, logic-driven framework to investigate Ethereum transactions for attack detection. At a high level, TXSPECTOR replays history transactions and records EVM bytecode-level traces, and then encodes the control and data dependencies into logic relations. Instead of setting a pre-defined set of functionalities, TXSPECTOR allows users to specify customized rules to uncover various types of attacks in the transactions. We have built a prototype of TXSPECTOR and evaluated it for the detection of three Ethereum attacks that exploit: (i) the Re-entrancy vulnerability, (ii) the UncheckedCall vulnerability, and (iii) the Suicidal vulnerability. The results demonstrate that TXSPECTOR can effectively detect attacks in the transactions and, as a byproduct, the corresponding vulnerabilities in the smart contracts. We also show how TXSPECTOR can be used for forensic analysis on transactions, and present Detection Rules for detecting other types of attacks in addition to the three focused Ethereum attacks.
