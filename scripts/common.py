@@ -5,13 +5,15 @@ from os import listdir
 
 MD_TEMPLATE = """---
 layout: post
-title: {}
+title: "{}"
 categories: {}
-abstract: {}
 year: {}
 venue: {}
 ---
+**Abstract**: {}
 """
+
+
 
 class Paper():
 	def __init__(self, title):

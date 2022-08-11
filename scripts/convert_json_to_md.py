@@ -23,7 +23,7 @@ def main():
 	papers = load_paper_data_from_file()
 	for paper in papers:
 		dump_paper_as_md(paper)
-		break
+		# break
 
 if __name__ == "__main__":
 	main()
