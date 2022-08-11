@@ -124,39 +124,39 @@ def clean_paper_title(line):
 	return title, venue, year
 
 def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_obj = None):
-	try:
-		print("Trying Google Scholar")
-		pubs = scholarly.scholarly.search_pubs(title)
-		best_match = next(pubs)
-		print(best_match)
-		if ['bib'] in best_match and ['title'] in best_match['bib']:
-			print(best_match['bib']['title'])
-			paperTitle = to_ascii(best_match['bib']['title'])
-			if difflib.SequenceMatcher(None,paperTitle,title).ratio() > 0.7:
-				bib = best_match['bib']
-				print(bib)
-				print(bib['author'])
-				print(bib['abstract'])
-				print(bib['pub_year'])
-				authors, abstract, _, year = [to_ascii(author) for author in bib['author']], to_ascii(bib['abstract']),  None, int(bib['pub_year'])
-				if paper_obj == None:
-					paper_obj = Paper(title)
-					paper_obj.add_tags(tags)
-					paper_obj.venue = venue
-					paper_obj.authors = authors
-					paper_obj.abstract = abstract
-					paper_obj.year = year if year != "NA" else backup_year
-				else:
-					paper_obj.abstract = abstract
-		else:
-			print("Trying Google Scholar No Valid Title, Raw: {}".format(best_match))
-			time.sleep(60)
-			return None
-
-	except Exception as e:
-		print("Error trying Google Scholar : {}".format(e))
+	#try:
+	print("Trying Google Scholar")
+	pubs = scholarly.scholarly.search_pubs(title)
+	best_match = next(pubs)
+	print(best_match)
+	if ['bib'] in best_match and ['title'] in best_match['bib']:
+		print(best_match['bib']['title'])
+		paperTitle = to_ascii(best_match['bib']['title'])
+		if difflib.SequenceMatcher(None,paperTitle,title).ratio() > 0.7:
+			bib = best_match['bib']
+			print(bib)
+			print(bib['author'])
+			print(bib['abstract'])
+			print(bib['pub_year'])
+			authors, abstract, _, year = [to_ascii(author) for author in bib['author']], to_ascii(bib['abstract']),  None, int(bib['pub_year'])
+			if paper_obj == None:
+				paper_obj = Paper(title)
+				paper_obj.add_tags(tags)
+				paper_obj.venue = venue
+				paper_obj.authors = authors
+				paper_obj.abstract = abstract
+				paper_obj.year = year if year != "NA" else backup_year
+			else:
+				paper_obj.abstract = abstract
+	else:
+		print("Trying Google Scholar No Valid Title, Raw: {}".format(best_match))
 		time.sleep(60)
 		return None
+
+	# except Exception as e:
+	# 	print("Error trying Google Scholar : {}".format(e))
+	# 	time.sleep(60)
+	# 	return None
 
 	time.sleep(60)
 	return paper_obj
