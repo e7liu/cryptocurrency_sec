@@ -130,9 +130,14 @@ def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_
 		best_match = next(pubs)
 		print(best_match)
 		if ['bib'] in best_match and ['title'] in best_match['bib']:
+			print(best_match['bib']['title'])
 			paperTitle = to_ascii(best_match['bib']['title'])
 			if difflib.SequenceMatcher(None,paperTitle,title).ratio() > 0.7:
 				bib = best_match['bib']
+				print(bib)
+				print(bib['author'])
+				print(bib['abstract'])
+				print(bib['pub_year'])
 				authors, abstract, _, year = [to_ascii(author) for author in bib['author']], to_ascii(bib['abstract']),  None, int(bib['pub_year'])
 				if paper_obj == None:
 					paper_obj = Paper(title)
