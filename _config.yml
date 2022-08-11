@@ -3,7 +3,7 @@
 # ---------------- #
 baseurl:
 url: https://e7liu.github.io/cryptocurrency_sec
-title: Cryptocurrency Sec
+title: Cryptocurrency Security
 subtitle:  A collection of (mostly) computer security research papers on cryptocurrency.
 encoding: "utf-8"
 
