@@ -94,7 +94,7 @@ def query_papers_matching_title(title, tags = None, venue = None, backup_year = 
 			try:
 				authors, abstract, venue, year = query_paper_by_id(paperID)
 			except Exception as e:
-				print(e)
+				print(e.message)
 				return None
 
 			paper_obj.authors = authors
@@ -148,7 +148,7 @@ def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_
 			return None
 
 	except Exception as e:
-		print("Error trying Google Scholar: {}".format(e))
+		print("Error trying Google Scholar: {}".format(e.message))
 		time.sleep(60)
 		return None
 
