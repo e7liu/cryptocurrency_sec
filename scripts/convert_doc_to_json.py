@@ -146,16 +146,18 @@ def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_
 			print("Trying Google Scholar No Valid Title, Raw: {}".format(best_match))
 			time.sleep(60)
 			return None
+	
+	except StopIteration as e:
+		print("Error trying Google Scholar: {}".format(e))
+		time.sleep(60)
+		return None
 
 	except Exception as e:
 		print("Error trying Google Scholar: {}".format(e.message))
 		time.sleep(60)
 		return None
 
-	except StopIteration as e:
-		print("Error trying Google Scholar: {}".format(e))
-		time.sleep(60)
-		return None
+
 
 	time.sleep(60)
 	return paper_obj
