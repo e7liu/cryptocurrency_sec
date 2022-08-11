@@ -123,7 +123,7 @@ def clean_paper_title(line):
 	year = int(line[bracket_start:].strip('()').strip().split("'")[-1].strip())
 	return title, venue, year
 
-def query_gscholar(title,  tags = None, venue = None, , backup_year = None, paper_obj = None):
+def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_obj = None):
 	try:
 		print("Trying Google Scholar")
 		pubs = scholarly.scholarly.search_pubs(title)
