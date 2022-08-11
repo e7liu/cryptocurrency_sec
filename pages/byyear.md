@@ -1,15 +1,24 @@
 ---
-layout: categories
-title: Categories
-description: 哈哈，你找到了我的文章基因库
-keywords: 分类
-menu: 分类
-permalink: /categories/
+layout: bytopic
+title: "By Year"
+permalink: /byyear/
 ---
 
 <section class="container posts-content">
 {% assign sorted_categories = site.categories | sort %}
-{% for category in sorted_categories %}
+
+{% assign my_array = "" | split: ',' %}
+
+{% for c in sorted_categories %}
+{% assign name = c[0] %}
+{% if name contains "20" %}
+{% assign my_array = my_array | push: c %}
+{% endif %}
+{% endfor %}
+
+
+
+{% for category in my_array %}
 <h3 id="{{ category[0] }}">{{ category | first }}</h3>
 <ol class="posts-list">
 {% for post in category.last %}

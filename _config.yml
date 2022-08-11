@@ -55,8 +55,16 @@ navs:
     label: Home
 
   -
-    href: /categories/
-    label: Categories
+    href: /bytopic/
+    label: "By Topic"
+
+  -
+    href: /byyear/
+    label: "By Year"
+
+  -
+    href: /byvenue/
+    label: "By Venue"
 
 # ---------------- #
 #      Jekyll      #
