@@ -148,7 +148,7 @@ def query_gscholar(title,  tags = None, venue = None, backup_year = None, paper_
 			return None
 
 	except Exception as e:
-		print("Error trying Google Scholar : {}".format(e))
+		print("Error trying Google Scholar: {}".format(e))
 		time.sleep(60)
 		return None
 
@@ -195,7 +195,7 @@ def main():
 				print('Data Exist!\n')
 				continue
 
-			query_result = query_papers_matching_title(title, list(tags.values()), backup_year, venue)
+			query_result = query_papers_matching_title(title, list(tags.values()), venue, backup_year)
 			if query_result == None or query_result.abstract == None:
 				query_result = query_gscholar(title, list(tags.values()), venue, backup_year, query_result)
 
