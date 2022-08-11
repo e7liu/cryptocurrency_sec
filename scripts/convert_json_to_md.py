@@ -10,6 +10,13 @@ def dump_paper_as_md(paper):
 		print("Paper: {}\nExists\n".format(filename))
 		return
 
+	if paper.tags == None:
+		paper.tags = []
+	if paper.year != None:
+		paper.tags.append(str(paper.year))
+	if paper.venue != None:
+		paper.tags.append(paper.venue)
+
 	with open(filename, "w") as f:
 		f.write(MD_TEMPLATE.format(
 			paper.title,
